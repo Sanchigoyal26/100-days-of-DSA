@@ -1,5 +1,3 @@
-//Write a C program to insert an element x at a given 1-based position pos 
-//in an array of n integers. Shift existing elements to the right to make space.
 #include<iostream>
 using namespace std;
 int main(){
@@ -26,7 +24,7 @@ int main(){
     arr[n]=temp;
     arr[pos]=num;
     //printing final array
-    cout<<"new array";
+    cout<<"new array"<<"\n";
     for(int i=0;i<n+1;i++){
         cout<<arr[i]<<" ";
     }
